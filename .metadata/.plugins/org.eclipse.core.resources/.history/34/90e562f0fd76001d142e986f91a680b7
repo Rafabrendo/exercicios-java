@@ -1,0 +1,43 @@
+package application;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		String path = "D:\\workspace\\ws - eclipse 02\\log.txt";
+		
+		System.out.print("How many ");
+		String[] x = new  String []{"a", "b", "c"}; 
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter(path, true))) {
+			for(int i = 0; i<3; i++) {
+				System.out.print("How many students for course "+ x[i] + "?");
+				int j = sc.nextInt();
+				System.out.print("Enter with name of student: ");
+				for (int k=0; k<j; k++) {
+					
+					String line = sc.nextLine();
+					bw.write(line);
+					//chamei o bw.write para escrever a linha no arquivo
+					//por padrão o write por padrão não tem a quebra de linha. Preciso fazer o bw.newLine()
+					bw.newLine();
+					
+				}	
+			}
+		}
+		
+		catch(IOException e) {
+			e.printStackTrace();
+			
+		}
+		
+	}
+
+}

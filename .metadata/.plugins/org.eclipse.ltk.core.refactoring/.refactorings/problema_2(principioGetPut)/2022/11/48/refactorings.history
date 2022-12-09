@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;application.Program&apos; to &apos;Covariancia&apos;&#x0D;&#x0A;- Original project: &apos;problema_2(principioGetPut)&apos;&#x0D;&#x0A;- Original element: &apos;application.Program&apos;&#x0D;&#x0A;- Renamed element: &apos;application.Covariancia&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Program&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;application{Program.java[Program" matchStrategy="1" name="Covariancia" qualified="false" references="true" similarDeclarations="false" stamp="1669222598666" textual="false" version="1.0"/>
+</session>

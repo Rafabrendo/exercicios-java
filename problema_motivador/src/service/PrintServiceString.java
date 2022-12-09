@@ -1,0 +1,41 @@
+package service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrintServiceString {
+	//não vou utilizar essa classe mais.
+	
+	private List<String> list = new ArrayList<>();
+		
+	public void addValue(String value) {
+		list.add(value);
+	}
+	
+	public String first() {
+		if(list.isEmpty()) {
+			throw new IllegalStateException("List is empty");
+		}
+		return list.get(0);
+	}
+	
+	public void print() {
+		System.out.print("[");
+		if(!list.isEmpty()) {
+			//System.out.print(list.get(0));
+			for(String i: list) {
+				System.out.print(i + " ");
+		}
+		//for(Integer i: list) {
+		// 	System.out.print(", "+ i);
+		//}
+		
+		//for(int i = 1; i< list.size(); i++) {
+		//	System.out.print(", " + list.get(i));
+		}
+		System.out.print("]");
+	}
+	
+
+
+}

@@ -1,0 +1,28 @@
+package application;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite o caminho de origem/destino: ");
+		String path = sc.nextLine();
+		
+		System.out.print("How many ");
+		String[] x = new  String []{"a", "b", "c"}; 
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter(path, true))) {
+			for(int i = 0; i<3; i++) {
+				System.out.print("How many students for course "+ x[i] + "?");
+			}
+			
+			
+		}
+		
+	}
+
+}

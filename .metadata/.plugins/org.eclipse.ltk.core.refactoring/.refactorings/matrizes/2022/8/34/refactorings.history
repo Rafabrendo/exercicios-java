@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;cont&apos; in &apos;application.Program.main(...)&apos; to &apos;count&apos;&#x0D;&#x0A;- Original project: &apos;exeMatrizes&apos;&#x0D;&#x0A;- Original element: &apos;application.Program.main(String[]).cont&apos;&#x0D;&#x0A;- Renamed element: &apos;cont&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;cont&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;application{Program.java[Program~main~\[QString;@cont!600!612!604!607!I!0!false" name="count" references="true" stamp="1660677736077" version="1.0"/>
+</session>
