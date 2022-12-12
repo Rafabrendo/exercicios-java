@@ -52,6 +52,7 @@ public class Program {
 				
 				if(votes.containsKey(name)) {
 					int votesSoFar = votes.get(name);
+					//o get() vai retornar o valor, pela chave
 					votes.put(name, count + votesSoFar);
 				}
 				else {
