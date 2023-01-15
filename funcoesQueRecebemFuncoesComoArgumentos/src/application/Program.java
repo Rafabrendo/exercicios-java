@@ -30,7 +30,7 @@ public class Program {
 		//double sum = ps.filteredSum(list, p -> p.getName().charAt(0) == 'M');
 		
 		double sum = ps.filteredSum(list, p -> p.getPrice() < 100.0);
-		
+									//predicado
 		//Tenho uma função super flexivel que utliza a list e uma condição para o qual e vou querer
 		//usar para filtrar a lista
 		
