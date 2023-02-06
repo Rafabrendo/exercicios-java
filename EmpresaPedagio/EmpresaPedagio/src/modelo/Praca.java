@@ -1,9 +1,8 @@
 package modelo;
 
-import java.io.Serializable;
 import java.util.Set;
 
-public class Praca implements Serializable{
+public class Praca {
     
     private Concessionaria concessionaria;
     private String cidade;

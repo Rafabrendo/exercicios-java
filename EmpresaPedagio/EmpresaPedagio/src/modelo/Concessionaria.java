@@ -1,17 +1,16 @@
 package modelo;
 
-import java.io.Serializable;
+
 import java.util.HashSet;
 import java.util.Set;
 
-public class Concessionaria implements Serializable{
-    
+public class Concessionaria {
     
     private String nome;
-    private Set<Praca> pracas = new HashSet();
+    private Set<Praca> pracas = new HashSet<>();
     private Double totalRecebido;
 
-    public Concessionaria(){
+    protected Concessionaria(){
     }
 
     public Concessionaria(String nome){
@@ -47,7 +46,7 @@ public class Concessionaria implements Serializable{
     }
 
     public void limparPracas(){
-        this.pracas = new HashSet();
+        this.pracas = new HashSet<>();
     }
 
 

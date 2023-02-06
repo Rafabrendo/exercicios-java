@@ -1,7 +1,7 @@
 // import modelo.Concessionaria;
 // import modelo.Praca;
 
-import java.util.ArrayList;
+
 
 import modelo.*; //vai importar todas as classes dentro do pacote
 

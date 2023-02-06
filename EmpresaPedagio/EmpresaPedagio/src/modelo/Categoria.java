@@ -1,8 +1,6 @@
 package modelo;
 
-import java.io.Serializable;
-
-public class Categoria implements Serializable{
+public class Categoria {
     
     private String descricao;
 
