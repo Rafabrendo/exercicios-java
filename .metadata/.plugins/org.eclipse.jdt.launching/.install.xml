@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+    <entry loc="/snap/eclipse/67/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.5.v20221102-0933/jre" stamp="1685009290000"/>
     <entry loc="C:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre" stamp="1646936844000"/>
     <entry loc="C:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208" stamp="1646936844000"/>
     <entry loc="C:\Program Files\Java\jre1.8.0_351\bin" stamp="1668455343941"/>
     <entry loc="C:\Program Files\Java\jdk1.8.0_351\bin" stamp="1668455241860"/>
+    <entry loc="/snap/eclipse/67/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.5.v20221102-0933" stamp="1685009290000"/>
     <entry loc="C:\Program Files\Java\jre1.8.0_351" stamp="1668455405551"/>
     <entry loc="C:\Program Files\Java\zulu17.34.19-ca-jdk17.0.3-win_x64\bin" stamp="1655140131084"/>
 </dirs>

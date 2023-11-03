@@ -9,14 +9,14 @@ import java.util.TimeZone;
 public class DateJava8 {
 
 	public static void main(String[] args) throws ParseException {
-		//throws ParseException é uma declaração de excessão
+		//throws ParseException ï¿½ uma declaraï¿½ï¿½o de excessï¿½o
 		
 		SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy");
 		SimpleDateFormat sdf2 = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		SimpleDateFormat sdf3 = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		sdf3.setTimeZone(TimeZone.getTimeZone("GMT"));
 		//Para especificar qual time zone utilizar
-		//Obs.: Antes tava imprimindo no horário de brasilia
+		//Obs.: Antes tava imprimindo no horï¿½rio de brasilia
 		
 		
 		
@@ -31,7 +31,7 @@ public class DateJava8 {
 		
 		Date x4 = new Date(1000L * 60L * 60L * 5L);
 		//milisegundos tem mil, que equivale a um segundo,  60 segundos, 1 minuto, 60 minutos, 1 hora, * 5 horas
-		//Para criar uma data, as 5am do dia 1 de janeiro de 1970. Que é a hora que o java guardou e começou a contar horas
+		//Para criar uma data, as 5am do dia 1 de janeiro de 1970. Que ï¿½ a hora que o java guardou e comeï¿½ou a contar horas
 		
 		
 		Date y1 = sdf1.parse("25/06/2018");
@@ -57,7 +57,7 @@ public class DateJava8 {
 		//Wed Dec 31 21:00:00 BRT 1969
 		System.out.println(x4);
 		//Thu Jan 01 02:00:00 BRT 1970
-		//imprimiu as 2h porque é em relação ao GMT e eu estou no horario de brasilia, então -3:00
+		//imprimiu as 2h porque ï¿½ em relaï¿½ï¿½o ao GMT e eu estou no horario de brasilia, entï¿½o -3:00
 		
 		System.out.println(sdf2.format(y3));
 		//Mon Jun 25 12:42:07 BRT 2018
