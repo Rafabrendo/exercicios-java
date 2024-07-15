@@ -19,10 +19,11 @@ public class Program {
 		//Isso instanciou um objeto os1, do tipo OrderStatus, que recebeu o valor OrderStatus.DELIVERED
 		
 		OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
-		//conversão de string para enum
+		//conversï¿½o de string para enum
 		
 		System.out.println(os1); //DELIVERED
 		System.out.println(os2); //DELIVERED
+		System.out.println("Teste");
 	}
 
 }
